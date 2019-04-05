@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="css/cvstile.css">
+    <script src="js/parallax.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+   
+    <header>
+        <nav id="menu-top">
+
+            <div id="menu-logo">
+                <a href="index.html">
+                        <img src="img/logopag.png">
+                </a>
+            </div>
+
+            <div class="links">
+                <a href="cv.html">CV</a>
+                <a href="galeria.html">Book</a>
+                <a href="#">Contacto</a>
+            </div>
+            
+        </nav>
+        
+    </header>
+    <div class="container">
+        <ul id="scene">
+            <li class="layer" data-depth="1"><img id="i" src="img/cv/logo.png"></li>
+
+            <li class="layer" data-depth="1.1"><img id="i" src="img/cv/programs.png"></li>
+            
+            <li class="layer" data-depth="1.2"><img id="i" src="img//cv/exp_1.png"></li>
+
+            <li class="layer" data-depth="1.3"><img id="i" src="img//cv/exp_2.png"></li>
+
+            <li class="layer" data-depth="1.2"><img id="i" src="img//cv/hab_1.png"></li>
+
+            <li class="layer" data-depth="1.3"><img id="i" src="img//cv/hab_2.png"></li>
+
+            <li class="layer" data-depth="1.2"><img id="i" src="img//cv/ex_1.png"></li>
+
+            <li class="layer" data-depth="1.3"><img id="i" src="img//cv/ex_2.png"></li>
+
+            <li class="layer" data-depth="1.4"><img id="i" src="img//cv/sitio.png"></li>
+            
+            
+        </ul>
+    </div>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+</body>
+</html>
