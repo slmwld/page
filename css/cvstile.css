@@ -60,8 +60,10 @@ nav#menu-top .links a:hover{
     padding-top: 70px;
     height: 90vh;
     overflow: hidden;
-    background: url(BG.png);
+    background-image: url(fondo_2.png);
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .container #i{
