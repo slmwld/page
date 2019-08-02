@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/3/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilopag.css">
+    <title>Galeria</title>
+    
+</head>
+<body>
+    <header>
+        <nav id="menu-top">
+
+            <div id="menu-logo">
+                <a href="index.html">
+                        <img src="img/logopag.png">
+                </a>
+            </div>
+
+            <div class="links">
+                <a href="#">CV</a>
+                <a href="galeria.html">Book</a>
+                <a href="#">Contacto</a>
+            </div>
+            
+        </nav>
+    </header>
+       
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                    <div class="thumbnail">
+                       
+                        <iframe class="video"  
+                        src="https://www.youtube.com/embed/1He2TyV08h4"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+
+                        <div class="caption">
+                            <h3>Video Reel</h3>
+                            <p><h6>2019</h6> </p>
+                        </div>
+                    </div>
+               </div>
+
+               
+                    <div class="col-md-6">
+                         <div class="thumbnail">
+                            
+                            <iframe class="video"
+                             src="https://www.youtube.com/embed/0Nqpl2OvYJ0"
+                             frameborder="0"
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe>
+                             <div class="caption">
+                                 <h3>Modelado Impala</h3>
+                                 <p><h6>Timelaps</h6> </p>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                           
+                           <iframe class="video"
+                            src="https://www.youtube.com/embed/XMM87TXlmlc"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                            <div class="caption">
+                                <h3>Laboratorio Geotecnia</h3>
+                                <p><h6>Timelaps</h6> </p>
+                            </div>
+                        </div>
+                   </div>
+
+
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                       
+                       <iframe class="video"
+                        src="https://www.youtube.com/embed/kbKpnfpzzGQ"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                            <div class="caption">
+                                <h3>Video Reel</h3>
+                                <p><h6>2019</h6> </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+             
+
+       
+    
+
+    <div id="mymodal" class="modal">
+            <span id="closeModal">&times;</span>
+            <div class="modal-content">
+                <img id="modalImg" id="img01">
+            </div>
+
+            <div id="caption"></div>
+        </div>
+
+    <script>
+        //obtebermodal
+        var modal = document.getElementById('mymodal');
+        //obtener imagen e insertar en el modal
+        var img = document.querySelectorAll('.imagen');
+        var btnClose = document.getElementById("closeModal");
+        // img.onclick = function(){
+        //     modal.style.display = "block";
+        //     modalImg.src = this.src;
+        // }
+
+        console.log(img);
+        btnClose.addEventListener('click', function () {
+            modal.style.display = "none";
+        });
+
+        for( i = 0; i <= img.length; i++){
+            img[i].addEventListener('click', function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            });
+        }
+
+
+    </script>
+    
+    
+</body>
+</html>
