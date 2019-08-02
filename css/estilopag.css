@@ -53,6 +53,35 @@ nav#menu-top .links a:hover{
     
 }
 
+nav#menu-top #titu{
+    left: 20%;
+    top: 13%;
+    color: white;
+    position: absolute;
+    font-size: 1.8em;
+}
+
+nav#menu-top #back{
+    left: 69%;
+    top: 20%;
+    color: white;
+    position: absolute;
+    font-size: 1em;
+}
+
+nav#menu-top #back a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .8s;
+}
+
+nav#menu-top #back a:hover{
+    color:  #ee812d;
+    
+
+}
+
 #vidbg{
     right: 0;
     bottom: 0;
