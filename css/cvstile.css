@@ -55,7 +55,7 @@ nav#menu-top .links a:hover{
     
 }
 
-.container{
+.container_2{
     width: 100%;
     padding-top: 70px;
     height: 90vh;
@@ -70,4 +70,37 @@ nav#menu-top .links a:hover{
     margin: auto;
     height: 550px;
     padding-left: 100px;
+}
+
+/*tablet*/
+@media (max-width: 768px){
+ 
+    .container_2 #i{
+        margin: auto;
+        height: auto;
+        width: 100%;
+        padding-left: 100px;
+    }
+    
+    .container{
+        width: 100%;
+        padding-top: 70px;
+        overflow: hidden;
+        background-image: url(fondo_2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    nav#menu-top #titu_1{
+        left:17%;
+        top: 8%;
+        color: white;
+        position: absolute;
+        font-size: 1.6em;
+    }
+
+
+   
+
 }
