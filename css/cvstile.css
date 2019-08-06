@@ -19,11 +19,10 @@ nav#menu-top{
 }
 
 nav#menu-top #menu-logo{
-    width: 150px;
-    height: 150px;
+    width: 9%;
     position: absolute;
     left: 5%;
-    top: -25px;
+    top: -5px;
 }
 
 nav#menu-top #menu-logo img{
@@ -55,10 +54,18 @@ nav#menu-top .links a:hover{
     
 }
 
+nav#menu-top #titu{
+    left: 20%;
+    top: 8%;
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+}
 .container_2{
+    margin: auto;
     width: 100%;
     padding-top: 70px;
-    height: 90vh;
+    height: auto;
     overflow: hidden;
     background-image: url(fondo_2.png);
     background-repeat: no-repeat;
@@ -66,9 +73,9 @@ nav#menu-top .links a:hover{
     background-size: cover;
 }
 
-.container #i{
+.container_2 #i{
     margin: auto;
-    height: 550px;
+    height: auto;
     padding-left: 100px;
 }
 
@@ -82,7 +89,7 @@ nav#menu-top .links a:hover{
         padding-left: 100px;
     }
     
-    .container{
+    .container_2{
         width: 100%;
         padding-top: 70px;
         overflow: hidden;
@@ -92,12 +99,33 @@ nav#menu-top .links a:hover{
         background-size: cover;
     }
 
-    nav#menu-top #titu_1{
+    nav#menu-top .links{
+        position: absolute;
+        right: 5%;
+        font-size: .7em;
+    }
+
+    nav#menu-top .links a{
+        display: inline-block;
+        height: 70px;
+        padding: 13px 12px;
+        min-width: 120px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.8em;
+        font-weight: bold;
+        border-left: 5px solid white;
+        text-align: center;
+        transition: .8s;
+        top: 20%;
+    }
+
+    nav#menu-top #titu{
         left:17%;
-        top: 8%;
+        top: 20%;
         color: white;
         position: absolute;
-        font-size: 1.6em;
+        font-size: 0em;
     }
 
 
