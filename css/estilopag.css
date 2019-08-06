@@ -267,7 +267,7 @@ transition: 0.5s
 
 /* celular*/
 
-@media (max-width: 375px){
+@media (max-width: 600px){
 
     .portada-header{
         left: 15%;
