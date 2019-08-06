@@ -237,6 +237,11 @@ transition: 0.5s
         margin-top: 35%;
     }
 
+    nav#menu-top #menu-logo img a{
+        width: 100%;
+        height: 100%;
+    }
+
     nav#menu-top #titu{
         left: 20%;
         top: 8%;
@@ -279,16 +284,38 @@ transition: 0.5s
         left: 15%;
     }
 
+    .row{
+        margin-left: -25%;
+    }
+
     .col-md-4{
-        margin-right: 10%;
         max-width: 300px;
     }
 
-
-    .thumbnail{
-        width: 80px;
-   
+    .col-md-6{
+        max-width: 300px;
+        margin-left: 10%;
     }
+
+    .video{
+        border-radius: 5px;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: 0.5s;
+        min-height: 200px;
+        min-width: 220px;
+        width: 100%;
+        height: 56%;
+    }
+
+    nav#menu-top #titu{
+        left: 20%;
+        top: 8%;
+        color: white;
+        position: absolute;
+        font-size: 0em;
+    }
+    
 
     nav#menu-top{
         width: 100%;
